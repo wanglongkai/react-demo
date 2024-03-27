@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* 修改滚动条的样式 */
+::-webkit-scrollbar {
+  width: 5px; /* 滚动条宽度 */
+}
+::-webkit-scrollbar-track {
+  background: rgb(0, 12, 23); /* 滚动条轨道背景颜色 */
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 143, 184, 0.6); /* 滚动条滑块颜色 */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 143, 184, 0.9); /* 滚动条滑块悬停时的颜色 */
+}
