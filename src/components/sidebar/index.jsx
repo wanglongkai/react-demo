@@ -38,7 +38,7 @@ const SideBar = () => {
     <Menu
     onClick={onClick}
     theme='dark'
-    style={{ width: 256, height: '100vh', overflow: 'auto' }}
+    style={{ width: 256, height: '100vh', 'overflowY': 'auto' }}
     defaultOpenKeys={['instance']}
     selectedKeys={[current]}
     mode="inline"

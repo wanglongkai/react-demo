@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 /* 修改滚动条的样式 */
 ::-webkit-scrollbar {
   width: 5px; /* 滚动条宽度 */
